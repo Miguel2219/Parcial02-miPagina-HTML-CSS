@@ -128,40 +128,39 @@
 
       
         <section id="formacion">
-            <h2>Formación y Crecimiento</h2>
-            <article>
+            <h2>Formación y Crecimiento</h2>  
+            <article class="educacion">
                 <div class="educacion-header">
                     <i class="fa-solid fa-graduation-cap"></i>
                     <h3> Mi Educación</h3>
                 </div>
-                <ul>
-                    <li>
-                        <strong>Ingeniería de Sistemas</strong>
-                        <p>Universidad Francisco de Paula Santander Ocaña - En curso</p>
-                        <p>Énfasis en desarrollo de software y análisis de sistemas</p>
-                    </li>
-                </ul>
-            </article>
-            <article>
-                <h3>Stack Tecnológico</h3>
-                <ul>
-                    <li>
-                        <strong>Lenguajes de Programación</strong>
-                        <p>Java, JavaScript, Python</p>
-                    </li>
-                    <li>
-                        <strong>Frameworks Backend</strong>
-                        <p>Spring Boot, Node.js, Express</p>
-                    </li>
-                    <li>
-                        <strong>Herramientas de Desarrollo</strong>
-                        <p>Docker, Jenkins, Maven</p>
-                    </li>
-                    <li>
-                        <strong>Metodologías</strong>
-                        <p>Scrum, Kanban, UML</p>
-                    </li>
-                </ul>
+                <div class="educacion-main">
+                    <h3><strong>Ingenieria de sistemas</strong></h3>
+                    <p>Universidad Francisco de Paula Santander Ocaña - En curso
+                    </p>
+                    <p>Enfasis en desarrollo de software y analisis de sistemas</p>
+                </div>
+                <div class="stack">
+                    <h3><strong>Stack Tecnológico</strong></h3>
+                    <ul>
+                        <li>
+                            <strong>Lenguajes de Programación</strong>
+                            <p>Java, JavaScript, Python</p>
+                        </li>
+                        <li>
+                            <strong>Frameworks Backend</strong>
+                            <p>Spring Boot, Node.js, Express</p>
+                        </li>
+                        <li>
+                            <strong>Herramientas de Desarrollo</strong>
+                            <p>Docker, Jenkins, Maven</p>
+                        </li>
+                        <li>
+                            <strong>Metodologías</strong>
+                            <p>Scrum, Kanban, UML</p>
+                        </li>
+                    </ul>
+                </div>  
             </article>
         
 
@@ -174,23 +173,20 @@
             <h2>Conecta Conmigo</h2>
             <nav>
                 <ul>
-                    <li><a href="https://github.com/Miguel2219" target="_blank">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/miguelsantiago-paba-48580b339/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/Miguel2219" class="fa-brands fa-github"></a></li>
+                    <li><a href="https://www.linkedin.com/in/miguelsantiago-paba-48580b339/" class="fa-brands fa-linkedin"></a></li>
+                    <li><a href="" class="fa-brands fa-facebook"></a></li>
+                    <li><a href="" class="fa-brands fa-whatsapp"></a></li>
+                    
                 </ul>
             </nav>
         </section>
         <form>
             <fieldset id="contacto">
-                <legend>Contáctame</legend>
-                
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <legend>Contáctame</legend>  
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+                <input type="email" id="email" name="email" required placeholder="Correo">
+                <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Mensaje"></textarea>
                 
                 <button type="submit">Enviar mensaje</button>
             </fieldset>
